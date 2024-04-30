@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#spreadsheet-conatiner{
+    display: grid;
+    grid-template-columns: 50px repeat(26, 100px);
+    grid-template-rows: 100px repeat(20, 50px);
+}
+
+.cell{
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    color: greenyellow;
+}
+
+.header-cell{
+    background-color:  white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.selected-cell{
+   border: 2px solid red;
+   outline: none;
+}
