@@ -71,8 +71,8 @@ function handleCellClick(event){
    }
 
    else{ 
-    targetCell.classList.add('selected-cell')
-    selectedCells.add(targetCell)
+       targetCell.classList.add('selected-cell')
+       selectedCells.add(targetCell)
    }
 
 
